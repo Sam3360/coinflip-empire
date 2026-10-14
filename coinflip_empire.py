@@ -12,3 +12,5 @@ flips = [random.choice(["H", "T"]) for _ in range(FLIPS)]
 
 heads = flips.count("H")
 tails = flips.count("T")
+
+head_percent = heads / FLIPS * 100
