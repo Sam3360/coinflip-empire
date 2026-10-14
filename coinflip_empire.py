@@ -37,3 +37,10 @@ for flip in flips:
 
 heads_so_far = 0
 cumulative_percent = []
+
+
+for i, flip in enumerate(flips, start=1):
+    if flip == "H":
+        heads_so_far += 1
+
+    cumulative_percent.append(heads_so_far / i * 100)
