@@ -25,3 +25,7 @@ current_side = None
 for flip in flips:
     if flip == current_side:
         current_streak += 1
+    else:
+        current_side = flip
+        current_streak = 1
+
