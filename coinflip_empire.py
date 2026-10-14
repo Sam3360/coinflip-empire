@@ -33,3 +33,7 @@ for flip in flips:
     if current_streak > longest_streak:
         longest_streak = current_streak
         streak_side = flip
+
+
+heads_so_far = 0
+cumulative_percent = []
