@@ -77,3 +77,6 @@ plt.legend()
 plt.tight_layout()
 plt.savefig("coinflip_probability.png", dpi=150)
 
+
+print("\nExperiment complete!")
+print("Graphs saved as PNG files.")
