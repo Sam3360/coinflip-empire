@@ -77,5 +77,3 @@ plt.legend()
 plt.tight_layout()
 plt.savefig("coinflip_probability.png", dpi=150)
 
-
-
