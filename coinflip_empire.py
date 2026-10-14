@@ -65,3 +65,6 @@ plt.title("Coinflip Empire: Heads vs Tails")
 plt.ylabel("Number of flips")
 plt.savefig("coinflip_results.png", dpi=150)
 plt.show()
+
+
+plt.figure(figsize=(10, 5))
