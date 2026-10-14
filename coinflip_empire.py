@@ -69,3 +69,4 @@ plt.show()
 
 plt.figure(figsize=(10, 5))
 plt.plot(range(1, FLIPS + 1), cumulative_percent)
+plt.axhline(y=50, linestyle="--", label="Expected: 50%")
