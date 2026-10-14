@@ -44,3 +44,5 @@ for i, flip in enumerate(flips, start=1):
         heads_so_far += 1
 
     cumulative_percent.append(heads_so_far / i * 100)
+
+print(f"\nTotal flips:       {FLIPS:,}")
