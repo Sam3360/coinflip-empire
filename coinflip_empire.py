@@ -29,3 +29,7 @@ for flip in flips:
         current_side = flip
         current_streak = 1
 
+
+    if current_streak > longest_streak:
+        longest_streak = current_streak
+        streak_side = flip
