@@ -51,3 +51,11 @@ print(f"Tails:             {tails:,} ({tail_percent:.2f}%)")
 print(f"Expected heads:    50.00%")
 print(f"Difference:        {abs(head_percent - 50):.2f} percentage points")
 print(f"Longest streak:    {longest_streak} {streak_side}'s")
+
+
+
+print("\nFirst 30 flips:")
+print(" ".join(flips[:30]))
+
+print("\nGenerating graphs...")
+
