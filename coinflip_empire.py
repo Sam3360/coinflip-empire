@@ -20,3 +20,8 @@ longest_streak = 0
 current_streak = 0
 streak_side = None
 current_side = None
+
+
+for flip in flips:
+    if flip == current_side:
+        current_streak += 1
