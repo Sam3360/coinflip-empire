@@ -48,3 +48,6 @@ for i, flip in enumerate(flips, start=1):
 print(f"\nTotal flips:       {FLIPS:,}")
 print(f"Heads:             {heads:,} ({head_percent:.2f}%)")
 print(f"Tails:             {tails:,} ({tail_percent:.2f}%)")
+print(f"Expected heads:    50.00%")
+print(f"Difference:        {abs(head_percent - 50):.2f} percentage points")
+print(f"Longest streak:    {longest_streak} {streak_side}'s")
