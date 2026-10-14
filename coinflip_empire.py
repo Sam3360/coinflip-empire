@@ -59,3 +59,7 @@ print(" ".join(flips[:30]))
 
 print("\nGenerating graphs...")
 
+plt.figure(figsize=(7, 5))
+plt.bar(["Heads", "Tails"], [heads, tails])
+plt.title("Coinflip Empire: Heads vs Tails")
+
