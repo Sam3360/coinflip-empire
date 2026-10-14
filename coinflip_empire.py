@@ -14,3 +14,5 @@ heads = flips.count("H")
 tails = flips.count("T")
 
 head_percent = heads / FLIPS * 100
+tail_percent = tails / FLIPS * 100
+
