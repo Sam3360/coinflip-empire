@@ -9,3 +9,6 @@ print("           COINFLIP EMPIRE")
 print("=" * 45)
 
 flips = [random.choice(["H", "T"]) for _ in range(FLIPS)]
+
+heads = flips.count("H")
+tails = flips.count("T")
