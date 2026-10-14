@@ -16,3 +16,7 @@ tails = flips.count("T")
 head_percent = heads / FLIPS * 100
 tail_percent = tails / FLIPS * 100
 
+longest_streak = 0
+current_streak = 0
+streak_side = None
+current_side = None
